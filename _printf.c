@@ -60,6 +60,7 @@ int _printf(const char *format, ...)
  * @buff_ind: Index at which to add next char,
  * represents the length of buffer.
  */
+
 void print_buffer(char buffer[], int *buff_ind)
 {
 	if (*buff_ind > 0)
